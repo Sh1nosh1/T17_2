@@ -52,6 +52,6 @@ namespace T17_2__Task_1_
         /// <summary>
         /// Output
         /// </summary>
-        public virtual void Output() { WriteLine($"Surname: {Surname}\nName: {Name}\nMinimal salary: {P}\nIncreasing coefficient: {K}\nIncome: {Income()}"); }
+        public virtual void Output() { WriteLine($"Surname: {Surname}\nName: {Name}\nMinimal salary: {P}\nIncreasing coefficient: {K}"); }
     }
 }
