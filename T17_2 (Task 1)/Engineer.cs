@@ -12,7 +12,7 @@ namespace T17_2__Task_1_
         /// <summary>
         /// Developed projects
         /// </summary>
-        int n;
+        protected int n;
         /// <summary>
         /// Properties
         /// </summary>
@@ -40,7 +40,7 @@ namespace T17_2__Task_1_
         public override void Output()
         {
             base.Output();
-            WriteLine($"Developed projects: {N}\nRecalculating income: {Income()}");
+            WriteLine($"Developed projects: {N}\nIncome: {Income()}");
         }
         public static Engineer Input()
         {
