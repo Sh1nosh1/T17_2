@@ -42,9 +42,12 @@ namespace T17_2__Task_1_
             base.Output();
             WriteLine($"Developed projects: {N}\nIncome: {Income()}");
         }
+        /// <summary>
+        /// Input
+        /// </summary>
+        /// <returns>Input info</returns>
         public static Engineer Input()
         {
-            
             Write("Enter the surname: ");
             string surname = ReadLine();
             Write("Enter the name: ");
