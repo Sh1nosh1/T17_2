@@ -1,0 +1,7 @@
+D:\ОАиП\T17_2(Task 2)\bin\Debug\T17_2(Task 2).exe.config
+D:\ОАиП\T17_2(Task 2)\bin\Debug\T17_2(Task 2).exe
+D:\ОАиП\T17_2(Task 2)\bin\Debug\T17_2(Task 2).pdb
+D:\ОАиП\T17_2(Task 2)\obj\Debug\T17_2(Task 2).csproj.AssemblyReference.cache
+D:\ОАиП\T17_2(Task 2)\obj\Debug\T17_2(Task 2).csproj.CoreCompileInputs.cache
+D:\ОАиП\T17_2(Task 2)\obj\Debug\T17_2(Task 2).exe
+D:\ОАиП\T17_2(Task 2)\obj\Debug\T17_2(Task 2).pdb
