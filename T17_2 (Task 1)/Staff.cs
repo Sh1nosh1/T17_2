@@ -42,7 +42,7 @@ namespace T17_2__Task_1_
         /// <param name="k">Initializing increasing coefficient</param>
         public Staff(string surname, string name, double p, double k)
         {
-            this.Surname = surname; this.Name = name; this.P = p; this.K = k;
+            this.surname = surname; this.name = name; this.p = p; this.k = k;
         }
         /// <summary>
         /// Calculating income
