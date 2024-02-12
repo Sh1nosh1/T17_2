@@ -23,7 +23,7 @@ namespace T17_2_Task_2_
         public TouristBus() { }
         public TouristBus(string mark, int seats, double price, double tour_price) : base(mark, seats, price)
         {
-            this.Tour_price = tour_price;
+            this.tour_price = tour_price;
         }
         /// <summary>
         /// Recalculating cost
@@ -37,11 +37,7 @@ namespace T17_2_Task_2_
         /// <summary>
         /// Output
         /// </summary>
-        public override void Output()
-        {
-            base.Output();
-            WriteLine($"Tour price: {Tour_price}\nCost: {TotalCost()}");
-        }
+        public override void Output() { base.Output(); WriteLine($"Tour price: {Tour_price}\nCost: {TotalCost()}"); }
         /// <summary>
         /// Input
         /// </summary>
