@@ -25,7 +25,7 @@ namespace T17_2__Task_1_
                     { 
                         Engineer engineer = new Engineer(); 
                         staff.Add(Engineer.Input()); 
-                        Write("\nPress E to continue, Esc to stop, C to close console"); 
+                        Write("\nPress E to continue, Esc to stop and output information, C to close console"); 
                     }
                     else if (key.Key == ConsoleKey.Escape) 
                     { 
