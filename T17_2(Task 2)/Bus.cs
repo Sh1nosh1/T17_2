@@ -33,7 +33,7 @@ namespace T17_2_Task_2_
         public Bus() { }
         public Bus(string mark, int seats, double price)
         {
-            this.Mark = mark; this.Seats = seats; this.Price = price;
+            this.mark = mark; this.seats = seats; this.price = price;
         }
         /// <summary>
         /// Calculating cost
@@ -43,9 +43,6 @@ namespace T17_2_Task_2_
         /// <summary>
         /// Output
         /// </summary>
-        public virtual void Output()
-        {
-            WriteLine($"Mark: {Mark}\nNumber of seats: {Seats}\nPrice for 1 seat: {Price}");
-        }
+        public virtual void Output() { WriteLine($"Mark: {Mark}\nNumber of seats: {Seats}\nPrice for 1 seat: {Price}"); }
     }
 }
