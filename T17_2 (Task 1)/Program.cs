@@ -21,8 +21,18 @@ namespace T17_2__Task_1_
                 {
                     ConsoleKeyInfo key = ReadKey(true);
                     WriteLine("\n");
-                    if (key.Key == ConsoleKey.E) { Engineer engineer = new Engineer(); staff.Add(Engineer.Input()); Write("\nPress E to continue, Esc to stop, C to close console"); }
-                    else if (key.Key == ConsoleKey.Escape) { Clear(); foreach (var elem in staff) { elem.Output(); WriteLine(); } flag = false; }
+                    if (key.Key == ConsoleKey.E) 
+                    { 
+                        Engineer engineer = new Engineer(); 
+                        staff.Add(Engineer.Input()); 
+                        Write("\nPress E to continue, Esc to stop, C to close console"); 
+                    }
+                    else if (key.Key == ConsoleKey.Escape) 
+                    { 
+                        Clear(); 
+                        foreach (var elem in staff) { elem.Output(); WriteLine(); } 
+                        flag = false; 
+                    }
                     else if (key.Key == ConsoleKey.C) { Environment.Exit(0); }
                     else { Write("You pressed the wrong key. Try again!"); }
                 }
