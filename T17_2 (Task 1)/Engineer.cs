@@ -23,7 +23,7 @@ namespace T17_2__Task_1_
         public Engineer() { }
         public Engineer(string surname, string name, double p, double k, int n) : base(surname, name, p, k)
         {
-            N = n;
+            this.n = n;
         }
         /// <summary>
         /// Recalculation income
@@ -37,11 +37,7 @@ namespace T17_2__Task_1_
         /// <summary>
         /// Output
         /// </summary>
-        public override void Output()
-        {
-            base.Output();
-            WriteLine($"Developed projects: {N}\nIncome: {Income()}");
-        }
+        public override void Output() { base.Output(); WriteLine($"Developed projects: {N}\nIncome: {Income()}"); }
         /// <summary>
         /// Input
         /// </summary>
